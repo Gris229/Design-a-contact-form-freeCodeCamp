@@ -1,0 +1,57 @@
+body {
+  background-color: gray;
+  font-family: Arial, Sans-serif, serif;
+  margin: 0px 0px;
+  font-size: 16px;
+  color: whitesmoke;
+}
+
+.form-container {
+  margin: 25px auto;
+  padding: 20px 5px;
+  width: 80vw;
+  height: 80vh;
+  background-color: #111;
+  border-radius: 10px;
+}
+
+label {
+  margin: 10px auto;
+  color: whitesmoke;
+  width: 80%;
+  display: block;
+}
+
+input, textarea {
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  height: 15px;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: block;
+  margin: 10px auto;
+
+}
+
+textarea {
+  height: 80px;
+}
+
+h2 {
+  text-align: center;
+
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  color: whitesmoke;
+  background-color: gray;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  color: gray;
+}
